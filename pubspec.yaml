@@ -1,0 +1,44 @@
+name: flutter_ddd_project_with_freezed
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  meta: ^1.10.0
+  # for freezed and immutable classes creation
+  freezed: ^2.4.5
+  json_annotation: ^4.8.1
+  json_serializable: ^6.7.1
+
+  dartz: ^0.10.1
+  # for bloc
+  flutter_bloc: ^7.0.0
+  # for firebase stuff
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.2
+  google_sign_in: ^6.1.6
+  # for linter to give pop up kind of stuff
+  lint: ^2.2.0
+  # injectable stuff
+  injectable: ^2.3.2
+  get_it: ^7.6.4
+  another_flushbar: ^1.12.30
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  injectable_generator: ^2.4.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true

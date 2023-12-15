@@ -1,0 +1,11 @@
+# this is used to include all the sever linter rules and those which is not required can be avoided in linter/rules
+include: package:lint/analysis_options.yaml
+# for refering to the commonly used linter refer the given link https://dart.dev/tools/linter-rules
+linter:
+  rules:
+    parameter_assignments: true
+# ignore, info, warning and error
+analyzer:
+  errors:
+    missing_required_param: error
+    parameter_assignments: error
